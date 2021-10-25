@@ -1,0 +1,117 @@
+:root{
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.barra-de-busqueda i{
+    font-style: inherit;
+    background-color:#ffffff; 
+    color: #666;
+    border: 1px solid #666;
+}
+
+body header{
+    background-color: var(--colorAmarillo);
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+body header div{
+    padding-left: 10px;
+}
+
+
+.burger-menu{
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    width: 25px;
+    color: white;
+    background-color: var(--colorCeleste);
+    padding: 2px;
+    margin: 0 auto;
+    height: 30px;
+    width: 30px;
+}
+
+.burger-menu i{
+    padding-top: 6px;
+}
+
+body header div input.buscador{
+    font-size: 1rem;
+    width: 50%;
+}
+
+
+body header div.comprar{
+    padding: 5px;
+    text-align: center;
+}
+body header div h4{
+    display: inline;
+}
+body header nav{
+    padding: 10px 0;
+}
+body header nav ul li{
+    list-style: none;
+}
+body header nav ul.registro{
+    margin-top: 20px;
+}
+body header div.buguer-menu{
+    padding: 5px 0;
+    text-align: center;
+}
+#menu{
+    background-color: var(--colorCeleste);
+    padding: 10px 10px;
+    color: white;
+}
+
+h3{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+body main{
+    padding: 0 5%;
+}
+
+body main section article span{
+    font-size: 18px;
+}
+
+body main section article p{
+    font-size: 16px;
+}
+/*footer*/
+#icono{
+    color: blue;
+    font-size: 2rem;
+}
+footer{
+    text-align: center;
+    padding: 5%;
+}
+footer section{
+    margin: 5%;
+}
+footer section p.copy{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 30px;
+}
